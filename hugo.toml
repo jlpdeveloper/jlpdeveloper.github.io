@@ -1,3 +1,36 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Josh Potts'
+
+theme='tailwind'
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    logo = "logo.jpg"
+
+  [params.footer]
+    since = 2025
+    poweredby = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about.md"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
