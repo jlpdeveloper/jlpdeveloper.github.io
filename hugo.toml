@@ -4,10 +4,18 @@ title = 'Josh Potts'
 
 theme='tailwind'
 
+[author]
+name='Josh Potts'
+
 [params]
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
+
+  showReadingTime = false
+  description='A blog site'
+  subtitle='A blog site'
+  toc=false
 
   [params.header]
     logo = "logo.jpg"
@@ -15,6 +23,18 @@ theme='tailwind'
   [params.footer]
     since = 2025
     poweredby = true
+
+  [params.social_media]
+    [[params.social_media.items]]
+      enabled = true
+      title = 'LinkedIn'
+      icon = 'brand-linkedin'
+      link = 'https://www.linkedin.com/in/josh-potts-tn/'
+    [[params.social_media.items]]
+      enabled=true
+      title = 'Github'
+      icon = 'brand-github'
+      link = 'https://github.com/jlpdeveloper'
 
 [menu]
 
@@ -34,3 +54,4 @@ theme='tailwind'
 category = "categories"
 tag = "tags"
 series = "series"
+
