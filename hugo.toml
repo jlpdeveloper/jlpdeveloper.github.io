@@ -12,9 +12,10 @@ name='Josh Potts'
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
-  showReadingTime = false
+  showReadingTime = true
   description='A blog site'
   subtitle='A blog site'
+  keywords = "hugo, blog, technology"
   toc=false
 
   [params.header]
@@ -35,6 +36,12 @@ name='Josh Potts'
       title = 'Github'
       icon = 'brand-github'
       link = 'https://github.com/jlpdeveloper'
+  [pwa]
+    enabled = true
+    icon = "logo.png" # should be in assets
+    icon_sizes = [192, 512]
+    [[pwa.manifest]]
+      description = 'Josh Potts Blog Site'
 
 [menu]
 
