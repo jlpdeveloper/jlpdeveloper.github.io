@@ -1,0 +1,12 @@
++++
+date = '2025-01-22T21:14:55-06:00'
+title = 'Why I keep coming back to Github Projects'
++++
+
+At work we use Jira heavily, and while it's a very powerful project management tool, some days it can feel like it's too restrictive. For my side projects, I keep using GitHub Projects and the difference is staggering between the two softwares. I find that I keep going back to GitHub Projects when I get frustrated with Jira.  I find myself going to set up a new project to test views, statuses, and other properties when I find I can't do what I want in Jira. Today I want to highlight some things I wish Jira did that GitHub Projects do really well. 
+
+One of the main points I like about GitHub Projects over Jira is just how simple setting up a project is. I'm not an admin over our current Jira workspace, but helping and/or watching a setup of a project or a workflow just seems complicated. With GitHub Projects, it just feels so easy to set up a project, associate it a repo and start making items. The templates they provide are extremely helpful and work as-is for most applications. One of my favorite things about GitHub Projects is the ability to create a new view. With just a few clicks you can add a new view for reviews, WIP, etc. I think adding per user views to Jira could be an absolute game changer for the software and make it so much more useful.  
+
+Another big point in favor of GitHub Projects is that the work lives close to the code. I'm a firm believer that your documentation, discussions, etc. should live as close to the code as possible. A project on GitHub wires up directly to the issues and pull requests associated with a repo, which ensures that everything lives with the code. 
+
+In saying all of the above, I don't think its fair to leave this post with the thought that GitHub Projects is superior to Jira. They are tools that happen to do similar things, but have very different focuses and markets. GitHub Projects works for smaller, open source work, whereas Jira is meant to be long lived through multiple different projects. I think Jira also supports non-developer participants better than GitHub can. Jira's integrations with so many partners also makes it appealing to those who wish to expand its capabilities or get better metrics on the work done in it.  Jira also supports a robust (although sometimes confusing) permissions system suited for the corporate environment. Overall both tools work well in some aspects, I just wish Jira had more ease of creating and modifying projects for the average developer.
