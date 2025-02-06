@@ -1,6 +1,7 @@
 +++
 date = '2025-01-22T21:14:55-06:00'
 title = 'Why I keep coming back to Github Projects'
+categories = ["project-management", "github"]
 +++
 
 At work we use Jira heavily, and while it's a very powerful project management tool, some days it can feel like it's too restrictive. For my side projects, I keep using GitHub Projects and the difference is staggering between the two softwares. I find that I keep going back to GitHub Projects when I get frustrated with Jira.  I find myself going to set up a new project to test views, statuses, and other properties when I find I can't do what I want in Jira. Today I want to highlight some things I wish Jira did that GitHub Projects do really well. 

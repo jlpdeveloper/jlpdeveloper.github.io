@@ -2,6 +2,7 @@
 date = '2025-01-07T19:34:54-06:00'
 draft = false
 title = 'My Task Management System'
+categories = ["project-management", "organization"]
 +++
 
 Over the past two years or so, I've been working on a new way of measuring work. This has evolved from a simple task list of things I need to get done for the sprint and other tasks, like reminding myself to ask someone a question or put in for time off. This concept has evolved into a daily note that houses three main areas to put tasks: Goals, Meetings, and Bonus Items. These three areas are important and hold distinct types of tasks. 

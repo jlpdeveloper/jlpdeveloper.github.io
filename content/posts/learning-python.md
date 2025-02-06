@@ -2,6 +2,8 @@
 date = '2025-01-15T00:45:44-06:00'
 draft = false
 title = 'Learning Python'
+categories = ["programming"]
+tags = ["python"]
 +++
 
 I've recently started programming more in Python, and wanted to document how the process of getting more experience in a new language is.
