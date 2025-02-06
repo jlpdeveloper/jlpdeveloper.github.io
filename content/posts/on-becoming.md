@@ -2,6 +2,7 @@
 date = '2025-01-29T20:59:35-06:00'
 draft = false
 title = 'On Becoming'
+categories = ["personal-growth"]
 +++
 
 > "I was nearly sure last night. He's becoming real."
