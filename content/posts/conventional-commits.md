@@ -2,7 +2,7 @@
 date = '2025-02-19T19:42:59-06:00'
 draft = false
 title = 'My Experience with Conventional Commits'
-categories = ["programing"]
+categories = ["programming"]
 tags = ["git", "version-control"]
 +++
 
