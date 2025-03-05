@@ -1,3 +1,3 @@
 Remove-Item -Recurse ./public
 
-hugo serve
+hugo serve --buildFuture
