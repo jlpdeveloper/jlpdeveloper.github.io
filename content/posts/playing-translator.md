@@ -7,18 +7,21 @@ tags = ["staff+", "staff-engineer-series"]
 +++
 I think over the next month I'm going to start a series on what skills help make a staff engineer. Staff engineers responsibilities extend way beyond just coding expertise. Staff engineers rely heavily on many various soft skills; today we'll be discussing translating. What do I mean by translating? It can have a couple of different meanings, depending on the context. 
 
-First we'll start with the simplest, in writing. Staff engineers are often tasked with breaking down product's vision into an actionable plan. We're handed a document that essentially states "I want service A to do X, Y, and Z" and tasked with breaking that down into a set of tasks we can either complete ourselves or delegate to others that will take someone's vision and make it reality. Depending on the complexity of the task, this can be a half hour writing a couple of tickets to several weeks worth of work for a major project. Staff engineers are expected to be able to understand the ask as defined in the design document, identify any gaps in the knowledge, and create a list of technical requirements. Once the requirements are agreed upon, the engineer can create a plan to satisfy the requirements. The technical requirements are another place that require the engineer to translate to a more abstract level for stakeholders to understand. For example, consider the following request: "We need to implement a system to store the names of pets". This can be broken down as such
+First we'll start with the simplest, in writing. Staff engineers are often tasked with breaking down product's vision into an actionable plan. We're handed a document that essentially states "I want service A to do X, Y, and Z" and tasked with breaking that down into a set of tasks we can either complete ourselves or delegate to others that will take someone's vision and make it reality. Depending on the complexity of the task, this can be a half hour writing a couple of tickets to several weeks worth of work for a major project. Staff engineers are expected to be able to understand the ask as defined in the design document, identify any gaps in the knowledge, and create a list of technical requirements. Once the requirements are agreed upon, the engineer can create a plan to satisfy the requirements. The technical requirements are another place that require the engineer to translate to a more abstract level for stakeholders to understand. For example, consider the following request: "We need to implement a system to store the names of pets". This can be broken down as such:
+
 
 **Questions**
 - Where do we currently store information about pets?
 	- Should we append the name as part of this information?
 - How will we access information about the pets?
 - Can pets be renamed?
+
 **Requirements**
 - Create a new API with the following methods
 	- `PATCH`: / Update a pets name
 	- `GET`: /{:id} Get the name of a pet by id
 	- `GET`: / Get all pet names
+
 **Technical Tasks**
 - Create a new database to store pet names
 - Create controller for /pets calls
@@ -27,6 +30,7 @@ First we'll start with the simplest, in writing. Staff engineers are often taske
 - Implement get by id method
 - Implement update method
 - ....
+
 
 As you can see, several questions were translated out of that one sentence, as well as a high level requirement list. Furthermore a detailed list of technical tasks as partially created (I say partially because the list doesn't account for a new api or using an existing, infrastructure, CICD, documentation, testing, etc.).  Note that the requirements don't specify any technical specifics, but they do identify and break down "store pet names" into a series of api calls and methods that define how this will work technically.
 
