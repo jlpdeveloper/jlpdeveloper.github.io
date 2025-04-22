@@ -1,9 +1,9 @@
 +++
 date = '2025-04-21T20:26:26-05:00'
 draft = false
-title = 'Lg Points'
-tags = []
-categories = []
+title = 'LG Points'
+tags = ['languages']
+categories = ['programming']
 +++
 
 I was working with ChatGPT to better understand Golang, and I asked it about inheritance with interfaces. It spit out the following gem. It made me think though, can you define aspects of languages as more loosey goosey than others? We'll explore that in this post.
