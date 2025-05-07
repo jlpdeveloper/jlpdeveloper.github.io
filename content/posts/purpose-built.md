@@ -1,0 +1,14 @@
++++
+date = '2025-05-07T18:10:45-05:00'
+draft = false
+title = 'Purpose Build Your Applications'
+tags = ['rant', 'architecture']
+categories = ['programming']
++++
+I was recently asked to review a proof of concept for a new design. It was frankly, a mess. The core tenet of this design is that it tried to solve problems the team has or may encounter. Ever. Full stop. The day after I was asked to look into a legacy system, written by someone completely different. It suffers the exact same problem, but this one was "successfully executed" and now contains a confusing net of data that will frankly take some of the best minds a long time to decipher what's going on.
+
+So why do we do this? To be smart? To save future selves time? Here's a piece of advice: it never works. There's always exceptions to the rule. You'll always be adding new exceptions and "special cases" until your nice clean software is just knot of special cases held together with duct tape and the remains of your original design. Don't take this as warning you off things such as abstract classes; they have their place. I re-wrote what was essentially 4 classes that did roughly the same things with different tables into one abstract class and it worked well. But trying to make an unnecessarily complex architecture is a recipe for failure. 
+
+So what are we to do? You start by building to the problem you have. Don't worry about a problem ten years from now; that problem will never come to fruition or you won't be around to care about it. Purpose build your tools for specific, well defined problems (hint: well defined is usually synonymous with small). That is the true mark of a good engineer. You must be able to define your problems, understand when problems are too big and break them down into smaller problems, then execute on specific problems. That's the key though: *specific* problems. Make one thing that does its job really well. Will you have multiple things to maintain? Yea, but you always do. And if they do their jobs well, there's not much maintenance to do, they *just work*.  And if things get restructured, its easy to hand of 2-5 small, specific, self contained things. The alternative is handing over 1/3 of one monstrous thing that still has hooks into your data; how much do you trust the other team to not mess up your data? The end result is you've deadlocked two teams because neither wants to break the "problem" app for the other. 
+
+So to summarize this rant, make your life simple by making your apps simple and purpose built. Solving for future problems (or all problems) isn't solving any problems, its just making a mess for someone to throw away later. 
