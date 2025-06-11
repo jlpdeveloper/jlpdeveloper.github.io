@@ -3,7 +3,7 @@ date = '2025-06-10T20:51:04-05:00'
 draft = false
 title = 'The Ideal Dashboard'
 tags = []
-categories = []
+categories = ['organization']
 +++
 I'm back after a little break last week (sorry I couldn't think of anything *good* to write for last week) and I just had a thought about 20 minutes ago. I'm winging this entire post, more than I usually do, but here goes. What is a common problem that many companies have? I think its communication. Engineers don't have an easy way to gather info about what's going on in their company. My thought was, "what would my ideal dashboard look like?" From there I came up with the following image, mocked up using obsidian's canvas feature: 
 
