@@ -1,0 +1,14 @@
++++
+date = '2025-12-09T19:21:11-06:00'
+draft = false
+title = 'On Writing Adrs'
+tags = ['rant', 'documentation']
+categories = ['organization']
++++
+Today I want to write about [Architectural Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) and why everyone should be writing them, all the time. If you're like me, you looked at the repo link and thought "dang, that's alot. And everyone has *opinions* on them." And I think you're absolutely correct, and therefore you've already put ritual and taboo around them that you're also thinking you don't need in your life. But hear me out, I think the concept of the ADR needs to be less formal, and more of an every day occurrence.
+
+I had the misfortune of re-opening a pull request today that needed rubber stamped for deployment. It had sat idle for a few weeks because we have such a backlog of work and this was *just* a principal engineer's side quest. I get it, business priority will always outweigh the glue work you do. The PR was approved with a comment: `curios, why did you make your own formatter?`. I had to go back and look at that code again, it felt like eons since I had written it. And there it was, a custom formatter, instead of an out of the box one. Was it well written? It was "good enough." 
+
+Did I have any idea why it was needed? Absolutely no fucking clue. And that pissed me off. I know I had good reason to do it, but now I've got to backtrack and figure out why. This is where an ADR would have come in handy. If I had taken 5 minutes to document the why I needed that formatter, I could have provided that link and moved on. But I didn't, it didn't cross my mind that this wouldn't be apparent in the future. And if you're like me, 5 minutes is more precious than gold. 
+
+So in retrospect, how would I make an ADR more approachable? Personally I think a fillable form would be the easiest way. Maybe a IDE extension (this is a new idea brewing in my mind). Barring that, I want to share a [success](https://github.com/service-atlas/backend/discussions/categories/adr) I've had with ADRs, where I use github's discussion feature. It works because I'm both ADR creator and approver in service atlas. Outside a single maintainer repo, I think writing ADRs as markdown documents that can be PR'd for approval is the best way to do it. But in any form, I don't think it should be hard. We really need to be able to boil an ADR down to "I faced {problem} and chose to solve it by {choice}". The consequences, the abstract, the alternatives, all that can come later. If an ADR can be that simple, and take that little time to write, then we can start doing it so often, and have such better documentation about why we chose to do something in our code. 
